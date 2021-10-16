@@ -1,0 +1,18 @@
+.oddElements {
+    background-color: rgb(255, 0, 191);
+}
+
+.classTwo {
+    font-size: 24px;
+}
+
+#id_one {
+    color: blue;
+    font-size: 36px;
+}
+
+#id_two {
+    background-color: chartreuse;
+    font-size: 24px;
+    font-weight: bold;
+}
