@@ -26,3 +26,77 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+
+/* My Solution */
+
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  flex: 1;
+}
+
+.sidebar {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  width: 500px;
+  height: 100%;
+  min-width: fit-content;
+}
+
+.cardItems {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 50px;
+  margin: 35px;
+}
+
+.card {
+ width: 300px;
+ margin: 15px;
+ padding: 15px;
+ font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
